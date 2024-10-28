@@ -33,7 +33,7 @@ h2 {
 }
 
 a {
-  color: #836FFF;
+  color: rgba(39, 39, 158, 100);
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
@@ -42,11 +42,15 @@ a {
 a:hover {
   color: #FEEC37;
   transition-duration: 0.1s;
-  transition: all ease-in 0.1;
+  transition: background-color 0.3s;
+}
+
+a:visited {
+  background-color: #C62E2E;
 }
 
 a:checked {
-  color: black;
+  background-color: black;
 }
 
 .container {
